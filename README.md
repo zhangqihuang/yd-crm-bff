@@ -12,6 +12,10 @@ npm install
 npm install -g express  
 node app.js  
 
-测试：  
+三. 测试：  
 1. 浏览器访问 http://localhost:4000/ （mock接口）  
 2. 浏览器访问 http://localhost:3000/api/test （BFF接口）
+
+四. 添加新接口：  
+1. controller/ApiController.ts 增加新接口  
+2. 如果需要添加新的controller，需要在ioc/loader.ts中import  
